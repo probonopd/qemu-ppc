@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=QEMU PPC
+Name=QEMU PowerPC
 Comment=PowerPC emulator
 Exec=qemu-system-ppc
 Terminal=true
