@@ -15,7 +15,7 @@ script:
   - ## TODO: Disbale iscsi, nfs, fdt
   - make -j$(nproc)
   - make DESTDIR=appdir -j$(nproc) install ; find appdir/
-  - cp ../qemu-ppc.desktop ./appdir/usr/share/applications/
+  - cp ../../qemu-ppc.desktop ./appdir/usr/share/applications/
   - mkdir -p appdir/usr/share/icons/hicolor/scalable/apps/ ; cp appdir/usr/share/qemu/qemu_logo_no_text.svg appdir/usr/share/icons/hicolor/scalable/apps/
   - wget -c -nv "https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage"
   - chmod a+x linuxdeployqt-continuous-x86_64.AppImage
