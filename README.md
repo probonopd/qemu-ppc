@@ -1,4 +1,4 @@
-# QEMU PPC AppImage
+# QEMU PowerPC AppImage
 
 Lets you run PowerPC operating systems on 64-bit Intel Linux hosts.
 
