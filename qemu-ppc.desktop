@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=QEMU PPC
 Comment=PowerPC emulator
-Exec=qemu-ppc
+Exec=qemu-system-ppc
 Terminal=true
 Type=Application
 Icon=qemu_logo_no_text
