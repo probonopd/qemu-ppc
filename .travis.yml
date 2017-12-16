@@ -11,7 +11,7 @@ script:
   - cd qemu/
   - mkdir build
   - cd build/
-  - ../configure --target-list=x86_64-softmmu --disable-gtk --disable-gnutls --disable-rdma --disable-vte --disable-libssh2 --disable-smartcard --enable-system --disable-user --disable-curses --disable-vnc --enable-sdl --disable-gcrypt --disable-rdma --disable-tpm --target-list=ppc-softmmu
+  - ../configure --prefix=/usr --target-list=x86_64-softmmu --disable-gtk --disable-gnutls --disable-rdma --disable-vte --disable-libssh2 --disable-smartcard --enable-system --disable-user --disable-curses --disable-vnc --enable-sdl --disable-gcrypt --disable-rdma --disable-tpm --target-list=ppc-softmmu
   - ## TODO: Disbale iscsi, nfs, fdt
   - make -j$(nproc)
   - make DESTDIR=appdir -j$(nproc) install ; find appdir/
